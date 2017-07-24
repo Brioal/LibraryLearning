@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.brioal.librarylearning.klog.KlogActivity">
+
+    <Button
+        style="@style/btnTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="log1"
+        android:text="Log()"/>
+
+    <Button
+        style="@style/btnTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="log2"
+        android:text="Log(String)"/>
+
+    <Button
+        style="@style/btnTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="log3"
+        android:text="Log(Tag,String)"/>
+
+    <Button
+        style="@style/btnTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="log4"
+        android:text="Log(Json)"/>
+
+    <Button
+        style="@style/btnTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="log5"
+        android:text="Log(Tag,Json)"/>
+</LinearLayout>
